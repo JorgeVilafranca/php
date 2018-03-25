@@ -8,7 +8,12 @@
 </head>
 <body>
 <?php
+    $nombre = "Jorge";
 
+    include ("./funciones.php");
+    
+    dameNombre();
+    echo $nombre;
 ?>
 </body>
 </html>

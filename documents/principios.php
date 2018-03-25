@@ -30,7 +30,7 @@
         con include si el archivo falta dara error pero seguira ejecutando el codigo
         require ademas del error no ejecutara mas codigo
     */
-    include ("./funcion_texto.php");
+    include ("./funciones.php");
     
     dameDatos();
 ?>

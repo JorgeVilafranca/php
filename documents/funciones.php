@@ -5,4 +5,8 @@
         echo "<p>Este es el mensaje de la función</p>";
     }
 
+    function dameNombre() {
+        $nombre = "María";
+    }
+
 ?>
