@@ -7,7 +7,7 @@ Curso de PHP y MySQL
 - Video 06: Ambitos de las variables
 - Video 07: Variables estáticas
 - Video 08: Strings
-- Video 09: 
+- Video 09: Operadores comparación
 - Video 10: 
 - Video 11: 
 - Video 12: 
