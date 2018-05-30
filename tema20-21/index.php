@@ -18,7 +18,7 @@
         $resultado = $num1+$num2;
         return $resultado;
     }
-    echo "<p>".suma(3, 2)."</p>";
+    echo "<p>3+2 = ".suma(3, 2)."</p>";
 
     // parametro por defecto
     function frase_mayus($frase, $conversion=true) {
@@ -34,6 +34,21 @@
         return $resultado;
     }
     echo "<p>".frase_mayus("esto es una prueba")."</p>";
+
+    $numero=5;
+    // Paso de parametros por valor
+    function incrementa($valor1) {
+        $valor1++;
+        return $valor1;
+    }
+    echo "<p>Por Valor: ".incrementa($numero)." => Numero: $numero</p>";
+
+    // Paso de parametros por referencia
+    function incrementa2(&$valor1) {
+        $valor1++;
+        return $valor1;
+    }
+    echo "<p>Por Referencia : ".incrementa2($numero)." => Numero: $numero</p>";
 
 ?>
 </body>
