@@ -27,6 +27,23 @@
     $pegaso->setColor("Marron", "Hyundai");
     $pegaso->arrancar();
 
+    echo "<hr>";
+
+    include("concesionario.php");
+
+    // De este modo podemos modificar una variable static
+    //CompraVehiculo::$ayuda=10000;
+    CompraVehiculo::setDescuentoGobierno();
+
+    $compraAntonio=new CompraVehiculo("compacto");
+    $compraAntonio->climatizador();
+    $compraAntonio->tapiceriaCuero("blanco");
+    echo "<p>Compra Antonio ".$compraAntonio->precioFinal()."</p>";
+
+    $compraAna=new CompraVehiculo("compacto");
+    $compraAna->climatizador();
+    $compraAna->tapiceriaCuero("rojo");
+    echo "<p>Compra Ana ".$compraAna->precioFinal()."</p>";
 ?>
 </body>
 </html>
