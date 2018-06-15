@@ -1,0 +1,35 @@
+#Logear desde la consola
+C:\wamp64\bin\mysql\mysql5.7.19\bin
+mysql -u root -p
+
+#Crear base de datos
+create database [bbdd];
+
+#Eliminar base de datos
+drop database [bbdd];
+
+#Listar bases de datos
+show databases;
+
+#Usar una base de datos
+use [bbdd];
+
+#Crear tabla
+create table [tabla] ([campo1] [tipo], [campo2] [tipo]);
+
+#Eliminar tabla
+drop table [tabla];
+
+#Estructura de una tabla
+describe [tabla];
+
+#Modificar la esrtuctura de una tabla eliminandolo/añadiendolo
+alter table [tabla] drop [campo];
+alter table [tabla] add column [campo] [tipo];
+
+#Insertar un registro en la tabla
+insert into [tabla] ([campo1], [campo2], ....) values("...", "...", ....);
+
+#Realizar una consulta en la tabla
+select [campo1], [campo2], ... from [tabla];
+select * from [tabla];
