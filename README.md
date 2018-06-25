@@ -18,7 +18,6 @@ Curso de PHP y MySQL
 - Tema 30/32: Arrays
 - Tema 33/35: BBDD MySQL, instrucciones
 - Tema 36-37: Conectando web a mi primera tabla
-- Tema 37: Obteniendo registros de la BBDD
-- Tema 38: Importación tablas, Consultas con filtros
+- Tema 38: Importar y consultas
 - Tema 39/41: Página de búsqueda
 - Tema 42: 
