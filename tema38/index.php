@@ -16,7 +16,7 @@
 <body>
 <?php
 
-    require("datos_conexion.php");
+    require("..\datos_conexion.php");
 
     $conexion=mysqli_connect($db_host, $db_user, $db_pass);
     // Si habido un error en la conexion

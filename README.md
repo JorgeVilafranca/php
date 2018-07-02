@@ -20,4 +20,6 @@ Curso de PHP y MySQL
 - Tema 36-37: Conectando web a mi primera tabla
 - Tema 38: Importar y consultas
 - Tema 39/41: Página de búsqueda
-- Tema 42: 
+- Tema 42/43: Insertando registros
+- Tema 44: Eliminando registros
+- Tema 45/46: Actualizando registros
