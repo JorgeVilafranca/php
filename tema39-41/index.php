@@ -80,14 +80,11 @@
         ejecutaConsulta($miBusqeda);
     } else {
 ?>
-        <form action="<?php $miPag ?>" method="GET">
+        <form action="<?php echo $miPag; ?>" method="GET">
             <label for="buscar">Buscar: </label>
             <input type="text" name="buscar">
             <input type="submit" value="Dale!">
         </form>
-<?php
-    }
-
-?>
+<?php } ?>
 </body>
 </html>

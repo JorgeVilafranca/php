@@ -76,7 +76,7 @@
     } else {
 ?>
     <h1>Registro de Artículos</h1>
-    <form name="form1" method="get" action="<?php $miPag ?>">
+    <form name="form1" method="get" action="<?php echo $miPag; ?>">
         <table border="0" align="center">
             <tr>
                 <td>Código Artículo</td>
