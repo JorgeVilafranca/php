@@ -23,3 +23,5 @@ Curso de PHP y MySQL
 - Tema 42/43: Insertando registros
 - Tema 44: Eliminando registros
 - Tema 45/46: Actualizando registros
+- Tema 47/48: Inyección SQL
+- Tema 49/50: Consultas preparadas
