@@ -25,3 +25,5 @@ Curso de PHP y MySQL
 - Tema 45/46: Actualizando registros
 - Tema 47/48: Inyección SQL
 - Tema 49/50: Consultas preparadas
+- Tema 51: Conexión con POO
+- Tema 52/56: PDO
