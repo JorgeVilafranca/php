@@ -13,7 +13,9 @@
 
     try {
         $base=new PDO("mysql:host=$db_host; dbname=$db_name", $db_user, $db_pass);
-        echo "<p>Conexión establecida</p>";
+        //echo "<p>Conexión establecida</p>";
+
+        
     } catch(Exception $e) {
         die("Error: ".$e->getMessage()  );
     } finally {
