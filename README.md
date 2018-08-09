@@ -26,4 +26,5 @@ Curso de PHP y MySQL
 - Tema 47/48: Inyección SQL
 - Tema 49/50: Consultas preparadas
 - Tema 51: Conexión con POO
-- Tema 52/56: PDO
+- Tema 52/55: PDO Parte 1
+- Tema 56: PDO Parte 2
