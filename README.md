@@ -30,3 +30,5 @@ Curso de PHP y MySQL
 - Tema 56: PDO Parte 2
 - Tema 57: Conexión a BBDD con POO y MSqli
 - Tema 58: Conexión a BBDD con POO y PDO
+- Tema 59/61: Sistema de login
+- Tema 62: Sesiones y PHP_SELF
